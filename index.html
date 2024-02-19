@@ -1,0 +1,200 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfoliok </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+       <div class="container">
+        <nav>
+             <img src="klogo.png" class="logo">
+             <ul id="sidemenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Project</a></li>
+                <li><a href="#certificated">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+             </ul>
+             <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+           
+            <h1>Hi, I'm <span>Komal Pathare</span></h1>
+            <p>IT Engineer</p>
+              
+        </div>
+       </div> 
+    </div>
+<!----------------------------ABOUT-------------------------------------------------->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="komal.jpg">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Komal Pathare, an IT student passionate about programming and web development. Eager to apply my skills in real-world projects, I've replicated Amazon's features using HTML and CSS. As Marketing Head of the PVGACM Student Chapter and an active NSS Volunteer, I've developed strong leadership and communication skills. Seeking an engineering internship to contribute to innovative projects and gain hands-on experience in the field. Excited about the endless possibilities in the tech realm!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Skill</span><br>Python, C++, Java</li>
+                            <li><span>Frontend </span><br>HTML, CSS, Javascript</li>
+                            <li><span>DeveloperTools</span><br>Visual Studio, Jupyter, Eclipse</li>
+                            <li><span>Database Languages</span><br>MySQL, MongoDB, NoSQL</li>
+                        </ul>+
+
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Fresher</span><br></li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025 BTech(Information Technology)</span><br>Pune Vidyarthi Griha's College Of Engineering And Technology Pune </li>
+                            <li><span>2019-2021 12th(Science)</span><br>Vidyadham Junior College of Science Shirur</li>
+                            
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-----------------------------------------PROJECT-------------------------------------------------------------->
+<div id="services" id="services">
+    <div class="container">
+        <h1 class="sub-title">Project</h1>
+        <div class="sevices_list">
+            <div>
+                <h2>Amazon Website Clone</h2>
+                <p>
+                    Successfully replicated key features of Amazon.com, showcasing proficiency in HTML and CSS. Designed and developed a user-friendly interface with product. listings, user authentication, and cart functionality, demonstrating strong frontend development skills.
+                </p>
+                <a href=" https://patharekomal.github.io/Amazon-Website-Clone/">learn more</a>
+            </div>
+            <div>
+                <h2>Flight Ticket Management System</h2>
+                <p>
+                    Developed a comprehensive airline ticket management system website using HTML, CSS, JavaScript, and MongoDB. Designed to facilitate ticket bookings,Cancellation of Ticket, and store passenger information securely. Implemented front-end functionalities and utilized MongoDB for efficient data storage and retrieval."
+                </p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-----------------------------Certificates---------------------------------->
+<section id="certificated">
+<div id="certificate">
+    <div class="container">
+        <h1 class="sub-title">Certificates</h1>
+        <div class="certificate_list">
+            <div>
+                <ul class="cert">
+                    <li>Cyber Security   <a href="Komal Pathare.pdf">-  CERTIFICATE</a>  </li> 
+                    <li>Java  <a href="java.pdf">-   CERTIFICATE</a>  </li> 
+                    <li>Advanced Cpp <a href="advancecpp.pdf">- CERTIFICATE</a>   </li> 
+                    <li>HTML   <a href="html.pdf">- CERTIFICATE</a>    </li> 
+                    <li>Python  <a href="python.pdf">- CERTIFICATE</a>    </li> 
+
+                </ul>
+            </div>
+           
+        </div>
+
+    </div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------------------------------------Resume--------------------------------->
+
+
+<!---------------------contact------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1> 
+                <p><i class="fa-solid fa-paper-plane"></i>komalpathare03@gmail.com</p> 
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/komal-pathare-439462240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                </div> 
+                <a href="resume.pdf" class="button" download>Download Cv</a> 
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Gmail" required>
+                    <textarea name="message"  rows="6" placeholder="Message"></textarea> 
+                    <button type="submit" class="button btn2">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright<i class="fa-regular fa-copyright"></i> komal</p>
+
+    </div>
+
+</div>
+
+
+
+
+    <script>
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemen=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemen.style.right="0";
+
+        }
+        function closemenu(){
+            sidemen.style.right="-200px";
+            
+        }
+    </script>
+    
+</body>
+</html>
