@@ -1,0 +1,1 @@
+My portfolio landing page demonstrates my skills in HTML, CSS, and JavaScript by showcasing a responsive design. It's a testament to my ability to create user-friendly experiences across different devices. Through this site, I aim to highlight my skills in building visually appealing and functional web projects. To view my website, click on the following link:
